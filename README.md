@@ -109,6 +109,12 @@ Alt-Svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 
 ![](screenshot.png)
 
+## Shell
+
+```bash
+$ docker exec -ti wp2burp_wordpress_1 /bin/bash
+```
+
 ## Uninstall
 
 ```bash
