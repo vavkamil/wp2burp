@@ -4,7 +4,7 @@ Intercept WordPress requests with Burp Suite
 
 ---
 
-Allows you to deploy WordPress instance in Docker, see all internal requests to WordPress API in Burp Suite, intercept requests & responses. 
+Allows you to deploy WordPress instance in Docker, see all requests to WordPress API (api.wordpress.org) in Burp Suite, intercept requests & responses. 
 
 Especially useful to demonstrate how the plugin update work. In the example, we will spoof the update for the "Hello Dolly" WordPress Plugin, and instead of the official one, malicious version 999 hosted on our server will be downloaded & installed.
 
